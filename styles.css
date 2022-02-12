@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+    background-image: url("images/back1.jpg");
+    background-size: 100%;
+}
+#mother{
+    width: 100%;
+    font-size: 20px;
+}
+main{
+    
+    border: 1px solid gray;
+    padding:5px;
+    margin-bottom: 20px;
+}
+input{
+    width: 82.3%;
+    padding: 4px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 0.85em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button{
+    
+}
+
+#div h5{
+    font-size: .65em;
+}
+aside{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1em;
+    background-color: silver;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#tbl{
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#tbl th{
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: silver;
+
+}
+
+#tbl tr td{
+    border-bottom: 1px solid silver;
+    
+}
+#tbl tr:last-child  td {
+    border-bottom: 0;
+  }
+
+
+img{
+    width: 70%;
+}
+
+aside button{
+    width: 50%;
+    padding: 8px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 0.7em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+@media(max-width:991px){
+ #form-col{
+        width: 80%;
+    }
+body{
+    padding: 0;
+}
+}
+
+@media(max-width:767px){
+    #mother{
+        font-size: 16px;
+    }
+    
+}
+
+@media(max-width:575px){
+    span{
+        display: none;
+    }
+    a{
+        display: block;
+    }
+   
+}
+
+@media(max-width:360px){
+    #mother{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:250px){
+    #mother{
+        font-size: 6px;
+    }
+}
+
+@media(max-width:176px){
+    #mother{
+        font-size: 2vw;
+    }
+}
+
